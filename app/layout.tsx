@@ -1,9 +1,8 @@
 import type { Metadata } from "next";
-import { Lato, Montserrat } from "next/font/google";
+import { Montserrat } from "next/font/google";
 import "./globals.css";
 
 const montserrat = Montserrat({ subsets: ["latin"] });
-//const lato = Lato;
 
 export const metadata: Metadata = {
   title: "InterDimensional Bank",
